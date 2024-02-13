@@ -35,4 +35,4 @@ jobs:
       with:
         files: |
           supervisord_exporter
-        tag_name: ${{ github.ref }}
+        tag_name: v1.0.0-${{ github.run_number }}
