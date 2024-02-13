@@ -35,3 +35,4 @@ jobs:
       with:
         files: |
           supervisord_exporter
+        tag_name: ${{ github.ref }}
